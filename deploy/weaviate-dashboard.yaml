@@ -42,7 +42,8 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: flask-dashboard
+  name: ingress-route-weaviate-dashboard
+  namespace: weaviate
   annotations:
     kubernetes.io/ingress.class: nginx
     nginx.ingress.kubernetes.io/rewrite-target: /
@@ -50,7 +51,7 @@ spec:
   tls:
     - hosts:
         - weaviate-ui.appflex.io
-      secretName: flask-dashboard-tls
+      secretName: weaviate-dashboard-tls
   rules:
     - host: weaviate-ui.appflex.io
       http:
