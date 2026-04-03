@@ -1,9 +1,5 @@
-# Weaviate Cluster Operations
+# Weaviate Cluster Dashboard
 
-[![Weaviate](https://img.shields.io/static/v1?label=for&message=Weaviate%20%E2%9D%A4&color=green&style=flat-square)](https://weaviate.io/)
-[![GitHub Repo stars](https://img.shields.io/github/stars/Shah91n/WeaviateDB-Cluster-WebApp?style=social)](https://github.com/Shah91n/WeaviateDB-Cluster-WebApp)
-[![Streamlit App](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://weaviatecluster.streamlit.app/)
-[![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python&logoColor=white)](https://python.org)
 
 A lightweight Streamlit web app built for developers who need a quick, visual way to manage and understand their Weaviate cluster. It's designed for **development, staging, and testing environments** — not for production-scale use.
 
