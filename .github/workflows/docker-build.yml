@@ -52,7 +52,7 @@ jobs:
         run: |
           set -e
           IMAGE=${{ secrets.DOCKERHUB_USERNAME }}/weaviate-dashboard:${{ github.sha }}
-          kubectl set image deployment/weaviate-dashboard weaviate-dashboard=$IMAGE
+          kubectl set image deployment/weaviate-dashboard webapp=$IMAGE
           kubectl rollout status deployment/weaviate-dashboard --timeout=180s
           
       - name: Verify deployment
